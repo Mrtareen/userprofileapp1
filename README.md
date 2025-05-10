@@ -1,16 +1,27 @@
-# userprofileapp
+This project is designed to handle API requests efficiently and provide smooth user experience with loading indicators.
 
-A new Flutter project.
+Features
+Error Handling: Displays informative messages when an API request fails.
 
-## Getting Started
+Loading Indicator: Shows a visual cue while data is being fetched.
 
-This project is a starting point for a Flutter application.
+Installation
+Clone the repository:
 
-A few resources to get you started if this is your first Flutter project:
+git clone <repo-url>
+Install dependencies:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+npm install
+Usage
+Run the application:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+npm start
+Error Handling
+Failed API requests trigger an error message.
+
+Retries may be attempted based on configuration.
+
+Loading Indicator
+Displayed during API calls.
+
+Hides once data is successfully loaded.
